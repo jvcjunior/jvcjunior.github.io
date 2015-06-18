@@ -1,6 +1,7 @@
 name: Valter Júnior
 description: Blogging about stuffs
 meta_description: "Valter Júnior, Blogging about stuffs"
+keywords: "software development, software quality, engineering, agile, testing"
 
 markdown: redcarpet
 highlighter: pygments
