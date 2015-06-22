@@ -43,14 +43,19 @@ No entanto, antes de olharmos para o seu blog, você precisa de alguns minutos p
 
 ## Configurando o Repositório
 
-There is only 3 values that you are going to want to change:
+ <figure>
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/github_config.png); background-size: 100%; display:block;width:100%; height: 165px;">
+</a>
+</figure>
 
-name - this is the blog title
-description - this is the tag line
-url - this is the url of the blog, will be [username].github.io.
-Optionally, you can also configure your social networks that show up in the footer of the site by filling in the various account names in the "footer-links" section of the _config.yml file.
+Tem algumas valores que você pode mudar:
+<ul>
+  <li>name - é o titulo do blog</li>
+  <li>description - é a descrição do blog</li>
+  <li>url - é a url do blog, que vai ser [username].github.io</li>
+</ul>
 
-You can edit the _config.yml directly in Github. Click on the file and then click the github edit file button icon. Once you have completed your edits, click the green commit button at the bottom of the screen.
+Opcionalmente você pode configurar suas redes sociais que são mostradas na base do blog por preencher as contas na seção "footer-links" do arquivo _config.yml. Você pode editar o arquivo _config.yml diretamente no github. Uma vez feitas as alterações clique no botão verde para comitar.
 
 ## Acessando o seu blog
 Agora o seu blog está pronto. Abra o browser e navegue para http://[username].github.io, trocando [username] pelo username que escolheu anteriormente. 
