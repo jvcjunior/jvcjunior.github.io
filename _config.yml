@@ -13,5 +13,5 @@ google_analytics: 'UA-64196808-1'
 
 
 # Details for the RSS feed generator
-url:            'jvcjunior.github.io'
+url:            'http://jvcjunior.github.io'
 author:         'Valter Júnior'
