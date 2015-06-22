@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Criando um blog com o Github e Jekyll - Part 1"
+title:  "Criando um blog com o Github e Jekyll - Part 2"
 date:   2015-06-22 10:15:00
 categories: github blog
 ---
