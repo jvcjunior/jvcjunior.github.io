@@ -29,7 +29,7 @@ Uma vez que fez um fork do repositório, você vai precisar ir nas configuraçõ
 No entanto, antes de olharmos para o seu blog, vocÊ precisa de alguns minutos para configurar alguns items no arquivo de configuração _config.yml.
 
  <figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/github_settings.png); background-size: 100%; display:block;width:100px; height: 350px;">
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/github_settings.png); background-size: 100%; display:block;width:100%; height: 350px;">
 </a>
 </figure>
 
