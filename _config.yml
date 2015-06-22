@@ -10,6 +10,7 @@ paginate: 15
 baseurl: /
 domain_name: 'http://jvcjunior.github.io'
 google_analytics: 'UA-64196808-1'
+disqus: jvcjunior
 
 # Details for the RSS feed generator
 url:            'jvcjunior.github.io'
