@@ -23,6 +23,11 @@ Fazer um fork no Github é muito fácil. Vá até https://github.com/barryclark/
 
 ![Image description](/images/fork_image.jpg)
 
+ <figure class="author-image">
+                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
+                    <span class="hidden">{{site.author}}'s Picture</span></a>
+                </figure>
+
 ## Renomeando o Repositório
 Uma vez que fez um fork do repositório, você vai precisar ir nas configurações do seu novo repositório e o renomear para [username].github.io onde username você coloca o nome que desejar para o seu blog. O seu blog vai estar no endereço http://[username].github.io.
 No entanto, antes de olharmos para o seu blog, vocÊ precisa de alguns minutos para configurar alguns items no arquivo de configuração _config.yml.
