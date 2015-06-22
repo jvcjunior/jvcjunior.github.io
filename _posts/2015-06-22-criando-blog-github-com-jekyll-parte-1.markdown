@@ -20,7 +20,7 @@ Um repositório baseado no Jekyll inclui muitas funcionalidades úteis para um b
 Fazer um fork no Github é muito fácil. Vá até https://github.com/barryclark/jekyll-now e clique no botão de fork no github. Github vai criar uma cópia do repositório na sua conta. 
 
  <figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/fork_image.png); display:block;width: 100px; height: 40px;">
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/fork_image.png); display:block;width:100px; height: 40px;">
    <span class="hidden">{{site.author}}'s Picture</span></a>
 </figure>
 
