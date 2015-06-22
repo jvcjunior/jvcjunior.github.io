@@ -1,7 +1,7 @@
 name: Valter Júnior
-description: Musings of a software developer
-meta_description: "Valter Júnior, musings of a software developer"
-keywords: "software development, software quality, engineering, agile, testing"
+description: Reflexões de um desenvolvedor de software
+meta_description: "Valter Júnior, reflexões de um desenvolvedor de software"
+keywords: "desenvolvimento de software, qualidade de software, agile, testes, engenharia de software"
 
 markdown: redcarpet
 highlighter: pygments
