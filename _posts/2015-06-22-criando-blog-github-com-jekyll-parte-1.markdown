@@ -5,7 +5,7 @@ date:   2015-06-22 10:15:00
 categories: github blog
 ---
 
-Bem vindos a primeira lição de uma sério sobre como criar um blog usando o github. O github tem uma ótima opção grátis para hospedar um blog e o melhor é que pode fazer isso em poucos minutos.Essa série vai cobrir tudo que precisa saber para hospedar, gerenciar e customizar o seu blog no Github.
+Bem vindos a primeira lição de uma série sobre como criar um blog usando o github. O github tem uma ótima opção grátis para hospedar um blog e o melhor é que pode fazer isso em poucos minutos.Essa série vai cobrir tudo que precisa saber para hospedar, gerenciar e customizar o seu blog no Github.
 
 ## 1. Visão Geral
 
@@ -62,6 +62,6 @@ Agora o seu blog está pronto. Abra o browser e navegue para http://[username].g
  
 ## 6. Conclusão
 
-EM poucos minutos nós criamos o seu blog e colocamos para rodar. No decorrer dos próximos posts, você aprenderá como gerenciar, criar novas páginas, customizar o tema, e customixar o domínio do seu blog. 
+Em poucos minutos nós criamos o seu blog e colocamos para rodar. No decorrer dos próximos posts, você aprenderá como gerenciar, criar novas páginas, customizar o tema, e customixar o domínio do seu blog. 
 
 No próximo post iremos criar nossa primeira página. 
