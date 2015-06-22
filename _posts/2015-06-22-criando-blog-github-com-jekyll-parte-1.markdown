@@ -33,6 +33,12 @@ Uma vez que fez um fork do repositório, você vai precisar ir nas configuraçõ
 </a>
 </figure>
 
+### Mude o nome
+ <figure>
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/github_rename_blog.png); background-size: 100%; display:block;width:100%; height: 350px;">
+</a>
+</figure>
+
 No entanto, antes de olharmos para o seu blog, você precisa de alguns minutos para configurar alguns items no arquivo de configuração _config.yml.
 
 ## Configurando o Repositório
