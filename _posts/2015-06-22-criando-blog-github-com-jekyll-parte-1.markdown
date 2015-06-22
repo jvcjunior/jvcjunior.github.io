@@ -19,14 +19,10 @@ Um repositório baseado no Jekyll inclui muitas funcionalidades úteis para um b
 ## Fork do Repositório
 Fazer um fork no Github é muito fácil. Vá até https://github.com/barryclark/jekyll-now e clique no botão de fork no github. Github vai criar uma cópia do repositório na sua conta. 
 
-({{ site.url }}/assets/fork_image.png)
-
-![Image description](/images/fork_image.jpg)
-
- <figure class="author-image">
-                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/fork_image.png)">
-                    <span class="hidden">{{site.author}}'s Picture</span></a>
-                </figure>
+ <figure>
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/fork_image.png)">
+   <span class="hidden">{{site.author}}'s Picture</span></a>
+</figure>
 
 ## Renomeando o Repositório
 Uma vez que fez um fork do repositório, você vai precisar ir nas configurações do seu novo repositório e o renomear para [username].github.io onde username você coloca o nome que desejar para o seu blog. O seu blog vai estar no endereço http://[username].github.io.
