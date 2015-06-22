@@ -21,7 +21,7 @@ Fazer um fork no Github é muito fácil. Vá até https://github.com/barryclark/
 
  <figure>
    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/fork_image.png); display:block;width:100px; height: 40px;">
-  
+</a>
 </figure>
 
 ## Renomeando o Repositório
@@ -30,7 +30,7 @@ No entanto, antes de olharmos para o seu blog, vocÊ precisa de alguns minutos p
 
  <figure>
    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/github_settings.png); display:block;width:100px; height: 40px;">
-
+</a>
 </figure>
 
 ## Configurando o Repositório
