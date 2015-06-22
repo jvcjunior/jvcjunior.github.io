@@ -23,22 +23,22 @@ Fazer um fork no Github é muito fácil. Vá até https://github.com/barryclark/
 Uma vez que fez um fork do repositório, você vai precisar ir nas configurações do seu novo repositório e o renomear para [username].github.io onde username você coloca o nome que desejar para o seu blog. O seu blog vai estar no endereço http://[username].github.io.
 No entanto, antes de olharmos para o seu blog, vocÊ precisa de alguns minutos para configurar alguns items no arquivo de configuração _config.yml.
 
+## Configurando o Repositório
 
+There is only 3 values that you are going to want to change:
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+name - this is the blog title
+description - this is the tag line
+url - this is the url of the blog, will be [username].github.io.
+Optionally, you can also configure your social networks that show up in the footer of the site by filling in the various account names in the "footer-links" section of the _config.yml file.
 
-Jekyll also offers powerful support for code snippets:
+You can edit the _config.yml directly in Github. Click on the file and then click the github edit file button icon. Once you have completed your edits, click the green commit button at the bottom of the screen.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Acessando o seu blog
+Agora o seu blog está pronto. Abra o browser e navegue para http://[username].github.io, trocando [username] pelo username que escolheu anteriormente. 
+ 
+## Conclusão
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+EM poucos minutos nós criamos o seu blog e colocamos para rodar. No decorrer dos próximos posts, você aprenderá como gerenciar, criar novas páginas, customizar o tema, e customixar o domínio do seu blog. 
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+No próximo post iremos criar nossa primeira página. 
