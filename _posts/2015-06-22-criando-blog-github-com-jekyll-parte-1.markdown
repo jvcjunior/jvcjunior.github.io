@@ -44,7 +44,7 @@ No entanto, antes de olharmos para o seu blog, você precisa de alguns minutos p
 ## Configurando o Repositório
 
  <figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/github_config.png); background-size: 100%; display:block;width:100%; height: 165px;">
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/github_config.png); background-size: 100%; display:block;width:100%; height: 355px;">
 </a>
 </figure>
 
