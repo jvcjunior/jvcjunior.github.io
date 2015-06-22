@@ -62,6 +62,6 @@ Agora o seu blog está pronto. Abra o browser e navegue para http://[username].g
  
 ## 6. Conclusão
 
-Em poucos minutos nós criamos o seu blog e colocamos para rodar. No decorrer dos próximos posts, você aprenderá como gerenciar, criar novas páginas, customizar o tema, e customixar o domínio do seu blog. 
+Em poucos minutos nós criamos o seu blog e colocamos para rodar. No decorrer dos próximos posts, você aprenderá como gerenciar, criar novas páginas, customizar o tema, e customizar o domínio do seu blog. 
 
 No próximo post iremos criar nossa primeira página. 
