@@ -24,7 +24,7 @@ Fazer um fork no Github é muito fácil. Vá até https://github.com/barryclark/
 ![Image description](/images/fork_image.jpg)
 
  <figure class="author-image">
-                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
+                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/fork_image.png)">
                     <span class="hidden">{{site.author}}'s Picture</span></a>
                 </figure>
 
