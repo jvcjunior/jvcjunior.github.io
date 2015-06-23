@@ -2,7 +2,7 @@
 layout: post
 title:  "Mapeamento GORM para herança - Herança ou Composição no Grails"
 date:   2015-06-23 10:15:00
-categories: grails gorm herança
+categories: grails gorm heranca
 ---
 
 Fala pessoal, hoje me deparei com um problema ao usar GORM(Grails Object Relation Mapping) para mapear uma herança e gostaria de compartilhar o que aprendi.
