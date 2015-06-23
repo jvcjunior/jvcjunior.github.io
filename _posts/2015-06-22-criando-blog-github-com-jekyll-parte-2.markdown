@@ -15,6 +15,10 @@ O primeiro passo é criar um arquivo para colocar o conteúdo do post do blog. N
 
 O nome do arquivo está no formato ano-mes-dia-titulo-separado-por-tracos.md
 
+{% highlight ruby %}
+2015-06-22-meu-primeiro-post.md
+{% endhighlight %}
+
 Vamos criar nosso primeiro post.
 
 1. Para criar o arquivo abra o browser e navegue para o seu repositório [username.github.io].
