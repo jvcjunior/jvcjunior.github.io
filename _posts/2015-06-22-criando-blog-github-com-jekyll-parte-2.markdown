@@ -88,6 +88,38 @@ Fica dessa forma:
 1. item 1
 2. item 2
 
+#### Negrito
+Coloque 2 ** no ínicio e no fim do texto que deseja colocar negrito.
+{% highlight ruby %}
+**item**
+{% endhighlight %}
+
+Fica dessa forma:
+
+**item**
+
+#### Links
+Links para outras páginas
+
+{% highlight ruby %}
+[nome do link a ser mostrado](http://url.com)
+{% endhighlight %}
+
+[nome do link a ser mostrado](http://url.com)
+
+#### Code Highlighting
+Existem diuas mameiras: 
+1. Dê um tab na linha e o texto será agrupado como se segue
+2. Use a marcação highlighter
+
+
+##### Highlighting do texto sem o code highlighting
+
+Comece a linha com um tab e será feito para você automaticamente.
+ seu texto ficará assim
+ 
+ 
+
 ## 5. Salvar como rascunho
 
 ## 5. Publicando o post
