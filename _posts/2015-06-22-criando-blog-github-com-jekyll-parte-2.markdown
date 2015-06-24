@@ -120,11 +120,12 @@ Comece a linha com um tab e será feito para você automaticamente.
  seu texto ficará assim
  
 ##### Highlighting do texto com o code highlighting
+<code class="language-text" data-lang="text">
 {% highlight ruby %}
- '{% highlight ruby %}'
   seu código vai aqui
- '{% endhighlight %}'
-{% endhighlight %}
+ {% endhighlight %}
+</code>
+
 
 ## 5. Salvar como rascunho
 
