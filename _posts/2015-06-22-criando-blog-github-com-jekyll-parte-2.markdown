@@ -2,7 +2,7 @@
 layout: post
 title:  "Criando um blog com o Github e Jekyll - Parte 2 - Criando seu primeiro Post"
 date:   2015-06-22 13:15:00
-categories: github blog
+categories: github blog jekyll
 ---
 
 Bem vindos a segunda lição de uma série sobre como criar um blog usando o github. O github tem uma ótima opção grátis para hospedar um blog e o melhor é que pode fazer isso em poucos minutos.Essa série vai cobrir tudo que precisa saber para hospedar, gerenciar e customizar o seu blog no Github. Nesse post você irá criar o seu primeiro post.
@@ -27,8 +27,31 @@ Vamos criar nosso primeiro post.
 4. Preste atenção a proxima seção e preencha os metadados sobre o post(ie:titulo, data, categorias, etc)
 
 ## 3. Criando o metadata
+Agora precisamos definir algumas informações sobre o nosso post. Todas as informações tais como título, categorias, data de publicação, etc são armazenadas no topo do arquivo e é chamado Front Matter.
 
-#### 3.1 Vá até settings
+Para definir a seção Front Matter você tem uma linha com 3 traços nela e o mesmo se repete no final da seção.
+Abaixo estão metadados comuns que você deve preencher:
+
+1. layout: é o nome do layout do diretório _layouts. Se seguiu a parte 1 e deu um clone no repositório jekyll-now, então o nome é post.
+2. title: o título do post que será mostrado no blog. Tem de ser entre parênteses para evitar conflito com os parametros do front matter.
+3. published: true or false. Determina se o post vai ser mostrado ou não.
+4. date: data do post. Isto é opcional e se vocÊ não usar será usada a data que está no nome do arquivo.
+5. categories: Lista de categorias delimitadas por virgulas. Colocar entre [] para multi categorias. É opcional mas recomendado.
+6. tags: Lista de tags que serão usadas para construir a nuvem de tags.  É opcional mas recomendado.
+
+#### Exemplo do Front Matter
+{% highlight ruby %}
+---
+layout: post
+title: Meu primeiro Post
+published: false
+date: 2015-02-01
+categories: [blogging]
+tags: [blogging]
+---
+
+Agora você pode criar o conteúdo do seu post
+{% endhighlight %}
 
 ## 4. Criando  o conteúdo
 
