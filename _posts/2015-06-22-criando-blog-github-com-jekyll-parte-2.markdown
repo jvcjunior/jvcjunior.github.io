@@ -116,9 +116,15 @@ Existem diuas mameiras:
 ##### Highlighting do texto sem o code highlighting
 
 Comece a linha com um tab e será feito para você automaticamente.
+
  seu texto ficará assim
  
- 
+##### Highlighting do texto com o code highlighting
+{% highlight ruby %}
+ {% highlight ruby %}
+  seu código vai aqui
+ {% endhighlight %}
+{% endhighlight %}
 
 ## 5. Salvar como rascunho
 
