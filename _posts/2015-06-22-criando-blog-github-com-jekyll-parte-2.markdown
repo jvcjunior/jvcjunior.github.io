@@ -114,11 +114,10 @@ Use a marcação highlighter
 ## 5. Salvar como rascunho
 Muitas vezes não iremos escrever e publicar um post de uma vez só. Pra isso é necessário você ter a capacidade de salvar um rascunho para ser publicado mais adiante. Para fazer isso basta você mudar o parametro published para false na seção front matter. Isso irá dizer para o Jekyll não publicar o seu post.
 
-
 ## 5. Publicando o post
 Publicar o post é muito fácil. Basta você mudar o parametro published para true ou false na seção front matter. Depois faça um commit para que a mudança reflita em seu repositório. 
 
- ## 6. Conclusão
+## 6. Conclusão
 Esse post é uma lição chave para que aprenda a criar um novo post. Criar um novo post com o Jekyll é muito fácil e com um pouco de marcação fica mole. Uma vez que aprende as diferentes tags de marcação você escreverá o seu post em muito pouco tempo. 
 A gente se fala no próximo post, onde iremos discutir sobre como adicionar comentários no seu post. Abraço!
 
