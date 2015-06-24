@@ -54,6 +54,37 @@ Agora você pode criar o conteúdo do seu post
 {% endhighlight %}
 
 ## 4. Criando  o conteúdo
+O conteúdo do post será escrito com marcação e ficará logo abaixo da seção front matter. Abaixo estão tags de marcações comuns que você usará. Cabeçalhos, listas, negrito, pontos, links e destaque de código.
+
+#### Cabeçalhos
+O símbolo # no ínicio da linha indica a criação de um cabeçalho e o número de # indica o tamanho da tag de cabeçalho.
+{% highlight ruby %}
+#  = h1
+## = h2
+e assim vai até h6
+{% endhighlight %}
+
+#### Listas ordenadas ou com pontos
+
+Para pontos comece a linha com * ou -
+{% highlight ruby %}
+* item 1
+* item 2
+{% endhighlight %}
+
+Fica dessa forma: 
+* item 1
+* item 2
+
+Para lista ordenada começa com o número desejado
+{% highlight ruby %}
+1. item 1
+2. item 2
+{% endhighlight %}
+
+Fica dessa forma: 
+1. item 1
+2. item 2
 
 ## 5. Salvar como rascunho
 
