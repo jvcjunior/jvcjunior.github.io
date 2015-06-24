@@ -73,6 +73,7 @@ Para pontos comece a linha com * ou -
 {% endhighlight %}
 
 Fica dessa forma: 
+
 * item 1
 * item 2
 
@@ -83,6 +84,7 @@ Para lista ordenada começa com o número desejado
 {% endhighlight %}
 
 Fica dessa forma: 
+
 1. item 1
 2. item 2
 
