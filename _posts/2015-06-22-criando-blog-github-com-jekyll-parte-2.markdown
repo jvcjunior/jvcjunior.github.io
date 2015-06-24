@@ -108,7 +108,6 @@ Links para outras páginas
 [nome do link a ser mostrado](http://url.com)
 
 #### Code Highlighting
-Existem diuas mameiras: 
 Use a marcação highlighter
 
 ## 5. Salvar como rascunho
