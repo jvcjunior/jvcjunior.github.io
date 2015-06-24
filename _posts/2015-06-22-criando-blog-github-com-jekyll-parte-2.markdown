@@ -109,22 +109,12 @@ Links para outras páginas
 
 #### Code Highlighting
 Existem diuas mameiras: 
-1. Dê um tab na linha e o texto será agrupado como se segue
-2. Use a marcação highlighter
-
-
-##### Highlighting do texto sem o code highlighting
-
-Comece a linha com um tab e será feito para você automaticamente.
-
- seu texto ficará assim
- 
-##### Highlighting do texto com o code highlighting
-<code class="language-text" data-lang="text">
+Use a marcação highlighter
+```
 {% highlight ruby %}
   seu código vai aqui
- {% endhighlight %}
-</code>
+{% endhighlight %}
+```
 
 
 ## 5. Salvar como rascunho
