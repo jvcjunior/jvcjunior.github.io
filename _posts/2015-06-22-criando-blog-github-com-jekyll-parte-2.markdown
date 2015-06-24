@@ -121,9 +121,9 @@ Comece a linha com um tab e será feito para você automaticamente.
  
 ##### Highlighting do texto com o code highlighting
 {% highlight ruby %}
- {% highlight ruby %}
+ '{% highlight ruby %}'
   seu código vai aqui
- {% endhighlight %}
+ '{% endhighlight %}'
 {% endhighlight %}
 
 ## 5. Salvar como rascunho
