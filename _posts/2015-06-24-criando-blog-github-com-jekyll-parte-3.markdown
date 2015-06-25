@@ -4,7 +4,7 @@ title:  "Criando um blog com o Github e Jekyll - Parte 3 - Adicionando comentár
 date:   2015-06-24 10:15:00
 categories: github blog jekyll disqus
 tags: github blog jekyll disqus
-published: false
+published: true
 ---
 
 Bem vindos a terceira lição de uma série sobre como criar um blog usando o github. O github tem uma ótima opção grátis para hospedar um blog e o melhor é que pode fazer isso em poucos minutos. Essa série vai cobrir tudo que precisa saber para hospedar, gerenciar e customizar o seu blog no Github. Nesse post você irá aprender a adicionar no seu blog a possibilidade de usuários comentarem. 
@@ -18,10 +18,16 @@ Nós iremos passar pelo processo de criar uma conta Disqus, configurar a conta, 
 
 ## 2. Configurando Disqus
 
-1.
-2.
-3.
-4.
+1. Abra o browser e navegue para seu repositorio [username].github.io.
+2. Clique no arquivo _config.yml para abri-lo
+3. Clique no botão de edição
+4. Procure pela palavra disqus. Depois coloque nesse parametro o seu disqus shortname. Por exemplo:
+ 
+{% highlight ruby %}
+disqus: jvcjunior
+{% endhighlight %}
+
+
 5.
 6.
 7.
