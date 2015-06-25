@@ -4,7 +4,7 @@ title:  "Criando um blog com o Github e Jekyll - Parte 3 - Adicionando comentár
 date:   2015-06-24 10:15:00
 categories: github blog jekyll disqus
 tags: github blog jekyll disqus
-published: true
+published: false
 ---
 
 Bem vindos a terceira lição de uma série sobre como criar um blog usando o github. O github tem uma ótima opção grátis para hospedar um blog e o melhor é que pode fazer isso em poucos minutos. Essa série vai cobrir tudo que precisa saber para hospedar, gerenciar e customizar o seu blog no Github. Nesse post você irá aprender a adicionar no seu blog a possibilidade de usuários comentarem. 
