@@ -17,7 +17,7 @@ Infelizmente o Jekyll por si só não fornece essa funcionalidade. Porém, é re
 Nós iremos passar pelo processo de criar uma conta Disqus, configurar a conta, configurar seu blog e testar tudo. 
 
 ## 2. Configurando Disqus
-1. Abra o browser e navegue para [https://disqus.com/admin/signup/?utm_source=New-Site]{https://disqus.com/admin/signup/?utm_source=New-Site}
+1. Abra o browser e navegue para [https://disqus.com/admin/signup/?utm_source=New-Site](https://disqus.com/admin/signup/?utm_source=New-Site)
 2. Crie sua conta.
  <figure>
    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/sign-up-disqus.png); background-size: 100%; display:block;width:100%; height: 350px;">
