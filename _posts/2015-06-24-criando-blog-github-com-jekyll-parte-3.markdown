@@ -19,13 +19,14 @@ Nós iremos passar pelo processo de criar uma conta Disqus, configurar a conta, 
 ## 2. Configurando Disqus
 1. Abra o browser e navegue para [https://disqus.com/admin/signup/?utm_source=New-Site]{https://disqus.com/admin/signup/?utm_source=New-Site}
 2. Crie sua conta.
-<figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/sign-up-disqus.png); display:block;width:100%; height: 400px;">
+ <figure>
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/sign-up-disqus.png); background-size: 100%; display:block;width:100%; height: 350px;">
 </a>
 </figure>
 3. Preencha as informações conforme mostra na imagem abaixo e clique em finalizar. Obs: Você não conseguirá mudar a disqus url. Esse valor será único para todos os seus sites. Você pode ter multiplos sites usando uma mesma conta. 
-<figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/create-site-account-disqus.png); display:block;width:100%; height: 400px;">
+
+ <figure>
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/create-site-account-disqus.png); background-size: 100%; display:block;width:100%; height: 350px;">
 </a>
 </figure>
 
