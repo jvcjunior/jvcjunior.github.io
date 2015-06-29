@@ -4,7 +4,7 @@ title:  "The Joel Test: 12 passos para um código melhor"
 date:   2015-06-28 10:15:00
 categories: github blog joeltest 
 tags: github blog jekyll joeltest
-published: false
+published: true
 ---
 
 Fala pessoal, hoje me deparei lendo sobre um assunto que achei muito interessante e gostaria de compartilhar com vocês. Já ouviram falar do teste do Joel?  Eu nunca tinha visto e achei as perguntas do teste muito oportunas para empresas de software. 
@@ -31,4 +31,4 @@ Quatro maneiras de usar o Teste do Joel
 2. Se você está decidindo se aceita ou não um novo emprego, pergunte ao seu possível empregador como eles se classificam neste teste. Se for demasiadamente baixo, tenha a certeza de que terá a autoridade de corrigir estas coisas. De outra maneira, você ficará frustrado e improdutivo.
 3. Se você é um investidor fazendo uma investigação minuciosa para julgar o valor de uma equipe de programação ou se sua empresa de software está considerando uma parceria com outra, este teste pode proporcionar um rápido princípio básico.
 
-
+Para quem desejar saber mais, eis o link do post original no Joel. [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html)
