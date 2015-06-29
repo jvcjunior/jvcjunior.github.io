@@ -47,7 +47,6 @@ Para evitar comentários com spams é melhor ter de aprovar os comentários ante
 
 9. Clique no botão de salvar.
 
-
 ## 3. Configurando seu blog
 1. Abra o browser e navegue para seu repositorio [username].github.io.
 2. Clique no arquivo _config.yml para abri-lo
@@ -57,9 +56,12 @@ Para evitar comentários com spams é melhor ter de aprovar os comentários ante
 disqus: jvcjunior
 {% endhighlight %}
 
-5.
-6.
-7.
-8.
+5. Clique no botão de commit. Coloque um comentário para você saber o que mudou no arquivo.
 
 ## 4. Testando
+Abra o browser e navegue para o seu blog e clique no post que foi publicado no nosso post anterior. Vá até o fim do post e você verá um local para inserir comentários. 
+
+## 5. Conclusão
+Ter comentários é essencial para qualquer blog para que você possa se comunicar com seus leitores. Como pode ver o Disqus é bem fácil de usar para adicionar comentários no seu blog. 
+
+No próximo post você vai aprender a criar páginas adicionas que não sejam um post tais como uma página de portfólio ou sobre. Até lá.
