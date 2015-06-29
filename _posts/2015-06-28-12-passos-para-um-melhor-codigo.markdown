@@ -10,7 +10,7 @@ published: true
 Fala pessoal, hoje me deparei lendo sobre um assunto que achei muito interessante e gostaria de compartilhar com vocês. Já ouviram falar do teste do Joel?  Eu nunca tinha visto e achei as perguntas do teste muito oportunas para empresas de software. 
 Basicamente o teste se resume nas perguntas abaixo: 
 
-O Teste do Joel
+**O Teste do Joel**
 
 1. Você usa ferramentas de controle de código?
 2. Você consegue fazer build em um passo? 
