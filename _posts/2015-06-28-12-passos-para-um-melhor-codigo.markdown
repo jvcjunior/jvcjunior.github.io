@@ -11,6 +11,7 @@ Fala pessoal, hoje me deparei lendo sobre um assunto que achei muito interessant
 Basicamente o teste se resume nas perguntas abaixo: 
 
 O Teste do Joel
+
 1. Você usa ferramentas de controle de código?
 2. Você consegue fazer build em um passo? 
 3. Você faz builds diários?
