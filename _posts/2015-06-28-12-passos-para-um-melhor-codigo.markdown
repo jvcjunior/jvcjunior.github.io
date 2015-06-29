@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Joel Test: 12 passos para um código melhor"
+title:  "Teste do Joel: 12 passos para um código melhor"
 date:   2015-06-28 10:15:00
 categories: github blog joeltest 
 tags: github blog jekyll joeltest
