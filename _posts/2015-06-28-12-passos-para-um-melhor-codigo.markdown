@@ -27,7 +27,8 @@ Basicamente o teste se resume nas perguntas abaixo:
 
 Ele argumenta que uma pontuação 12 é perfeita, 11 é tolerável, mas 10 ou menos indica que você tem sérios problemas. A verdade é que a maioria das empresas de software funcionam com uma pontuação 2 ou 3, e elas precisam de uma grande ajuda, porque companhias como a Microsoft funcionam com 12 pontos todo o tempo.
 
-Quatro maneiras de usar o Teste do Joel
+**Quatro maneiras de usar o Teste do Joel**
+
 1. Se você é o gerente de uma equipe de programação, use isto como uma check-list para garantir que seu time está trabalhando o melhor quanto possível. Quando você começar a atingir os 12, você pode deixar seus programadores em paz e dedicar todo o seu tempo mantendo os executivos longe de chateá-los.
 2. Se você está decidindo se aceita ou não um novo emprego, pergunte ao seu possível empregador como eles se classificam neste teste. Se for demasiadamente baixo, tenha a certeza de que terá a autoridade de corrigir estas coisas. De outra maneira, você ficará frustrado e improdutivo.
 3. Se você é um investidor fazendo uma investigação minuciosa para julgar o valor de uma equipe de programação ou se sua empresa de software está considerando uma parceria com outra, este teste pode proporcionar um rápido princípio básico.
