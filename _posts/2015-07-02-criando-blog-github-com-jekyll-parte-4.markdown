@@ -47,4 +47,24 @@ Por enquanto adicione marcações simples como abaixo:
 </figure>
 
 ## 5. Preview da página
-## 5. Adicionando a página ao menu
+Para ver sua página navegue para http://[username].github.io/portfolio
+
+## 6. Adicionando a página ao menu
+Uma vez que você está pronto para compartilhar sua página com os leitores, você vai querer adicionar sua página ao seu menu e a ter indexada a engines de busca.
+
+Para dizer para engines de busca para indexar a sua página, precisamos remover a tag sitemap:false
+
+Para adicionar ao menu:
+
+1. Navegue no repositório para o diretório _layout que está na página inicial de seu repositório
+2. Clique na página default.html.
+3. Clique no ícone para editar o arquivo
+4. Encontre o menu principal. Você pode procurar pela seção home ou about
+5. Adicione uma linha no menu na posição que desejar
+6. Comite sua alteração
+7. Agora navegue para o seu blog e veja se apareceu um item de menu com o nome que colocou
+
+## 7. Conclusão
+Em alguns passos fomos capazes de adicionar uma nova página ao blog. Você pode continuar a costruir seu portfólio com a marcação necessária para mostrar o seu portfolio ou você pode remover do menu até estar pronto para mostrar.
+
+Na próxima seção iremos nos basear nessa lição para adicionar uma página de posts por categoria. Até mais!
