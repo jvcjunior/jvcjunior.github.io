@@ -14,15 +14,17 @@ A medida que o seu blog cresce você vai querer adicionar informação além de 
 
 ## Criando um arquivo por página
 Se você tem lido os posts anteriores os passos serão familiares para você:
+
 1. Abra o browser e navegue até o seu repositório [username].github.io.
 2. Clique no botão + para adicionar um novo arquivo
  <figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/new_page_button.png); background-size: 100%; display:block;width:100%; height: 150px;">
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/new_page_button.png); background-size: 100%; display:block;width:100%; height: 90px;">
 </a>
 </figure>
+
 3. Coloque que o nome: portfolio.md
  <figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/new_page_name.png); background-size: 100%; display:block;width:100%; height: 150px;">
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/new_page_name.png); background-size: 100%; display:block;width:100%; height: 90px;">
 </a>
 </figure>
 
