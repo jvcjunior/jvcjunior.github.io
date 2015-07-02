@@ -4,7 +4,7 @@ title:  "Criando um blog com o Github e Jekyll - Parte 4 - Adicionando outras p�
 date:   2015-06-28 10:15:00
 categories: github blog  
 tags: github blog jekyll 
-published: false
+published: true
 ---
 
 Bem vindos a quarta lição de uma série sobre como criar um blog usando o github. O github tem uma ótima opção grátis para hospedar um blog e o melhor é que pode fazer isso em poucos minutos. Essa série vai cobrir tudo que precisa saber para hospedar, gerenciar e customizar o seu blog no Github. Nesse post você irá criar novas páginas como a [Sobre](http://jvcjunior.github.io/about.html) que tem no meu blog.
