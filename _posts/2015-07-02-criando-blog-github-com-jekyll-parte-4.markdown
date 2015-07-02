@@ -42,7 +42,7 @@ O conteúdo é escrito em linguagem de marcação assim como os posts. Na  [Part
 
 Por enquanto adicione marcações simples como abaixo: 
  <figure>
-   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/new_page_name.png); background-size: 100%; display:block;width:100%; height: 90px;">
+   <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/portfolio_first_content.png); background-size: 100%; display:block;width:100%; height: 290px;">
 </a>
 </figure>
 
