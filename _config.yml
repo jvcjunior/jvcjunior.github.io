@@ -3,7 +3,7 @@ description: Reflexões de um desenvolvedor de software
 meta_description: "Valter Júnior, reflexões de um desenvolvedor de software"
 keywords: "desenvolvimento de software, qualidade de software, agile, testes, engenharia de software"
 
-kramdown: redcarpet
+markdown: kramdown 
 highlighter: pygments
 logo: false
 paginate: 15
