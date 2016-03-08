@@ -1,11 +1,11 @@
-----
- layout: post
- title:  Hoisting - Javascript
- date:   2016-03-08 15:15:00
- categories: github blog javascript hoisting 
- tags: github blog javascript hoisting
- published: false
-----
+---
+layout: post
+title:  "Hoisting - Javascript"
+date:   2016-08-08 10:15:00
+categories: github javascript hoisting 
+tags: github javascript hoisting
+published: true
+---
 
 Fala galera, beleza? Fazia tempo que não escrevia nada e nesse tempo tenho me interessado bastante por Javascript. Tenho procurado aprender a fundo essa tecnologia e é por isso que hoje vou escrever algo sobre. Irei falar sobre uma caracteristica do Javascript que poucos conhecem e que pode evitar muitos problemas quando entendida. É fácil e basta um pouco de anteção. Vamos lá.
 
