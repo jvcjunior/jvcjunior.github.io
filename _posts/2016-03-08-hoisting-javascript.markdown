@@ -22,7 +22,7 @@ console.log( a );
 ```
 
 O que espera que será impresso no comando console.log(..) ?
-Muitos desenvolvedores talvez esperassem: undefined, desde que var a vem depois de  a = 2, e seria natural assumir que a variável é redefinida e por isso setada para undefined. No entanto a saída será 2.
+Muitos desenvolvedores talvez esperassem: `undefined`, desde que `var a` vem depois de `a = 2`, e seria natural assumir que a variável é redefinida e por isso setada para `undefined`. No entanto a saída será `2`.
 Considere esse outro pedaço de código:
 
 ```js
@@ -30,11 +30,11 @@ console.log( a );
 var a = 2;
 ```
 
-Você talvez fique tentado a assumir que, desde que o código anterior mostrou algo diferente do que o comportamento top-down, talvez nesse código, 2 também seja impresso. Outros talvez achem que a variável a é usada antes da declaração, logo deve resultar na exceção ReferenceError.
+Você talvez fique tentado a assumir que, desde que o código anterior mostrou algo diferente do que o comportamento top-down, talvez nesse código, `2` também seja impresso. Outros talvez achem que a variável a é usada antes da declaração, logo deve resultar na exceção ReferenceError.
 Infelizmente, ambos os ‘chutes’ estão incorretos. A saída seria undefined.
 Então, o que está acontecendo aqui? O que vem primeiro, a declaração ou a atribuição? 
 Bom, no Javascript todas as declarações, tanto de variáveis como de funções, são processadas primeiro, antes de qualquer parte do código ser executado. 
-Quando você vê var a = 2;, provavelmente pensa nisso como uma expressão. Mas o Javascript pensa nessa expressão como se fossem duas expressões: var a; e a = 2;. A primeira expressão, a declaração, é processada durante a fase de compilação. A segunda expressão, a atribuição, é deixada no lugar para a fase de execução. 
+Quando você vê `var a = 2;`, provavelmente pensa nisso como uma expressão. Mas o Javascript pensa nessa expressão como se fossem duas expressões: `var a; e a = 2;`. A primeira expressão, a declaração, é processada durante a fase de compilação. A segunda expressão, a atribuição, é deixada no lugar para a fase de execução. 
 
 
 Então naquele nosso primeiro exemplo de código, o Javascript que é visualizado dessa forma: 
@@ -79,8 +79,8 @@ function teste() {
     var a = 2;
 }
 ```
-A declaração da função teste é ‘içada’, de tal maneira que a chamada pra teste na primeira linha possa ser executada. 
-É importante notar que o ‘içamento’ é por escopo. Nossos exemplos anteriores foram simplificados duma maneira que só usamos o escopo global. A função teste(..) que estamos analisando agora expõe que var a é ‘içada’ para o topo de teste(..) (não, obviamente, para o topo do programa).O Javascript interpreta o código de teste da seguinte maneira: 
+A declaração da função `teste` é ‘içada’, de tal maneira que a chamada pra teste na primeira linha possa ser executada. 
+É importante notar que o ‘içamento’ é por escopo. Nossos exemplos anteriores foram simplificados duma maneira que só usamos o escopo global. A função `teste(..)` que estamos analisando agora expõe que var a é ‘içada’ para o topo de `teste(..)` (não, obviamente, para o topo do programa).O Javascript interpreta o código de teste da seguinte maneira: 
 ```js
 function teste() {
     var a;
@@ -90,7 +90,7 @@ function teste() {
 teste();
 ```
 
-Declarações de funções são ‘içadas’ conforme vimos. Mas expressões de funcção não são.
+Declarações de funções são ‘içadas’ conforme vimos. Mas expressões de função não são.
 ```js
 teste(); // not ReferenceError, but TypeError!
 var teste= function bar() {
@@ -98,8 +98,8 @@ var teste= function bar() {
 };
 ```
 
-O identificador da variável teste é ‘içado’ e setado ao escopo global do programa, então teste() não gera um  ReferenceError. Mas teste não tem valor ainda (como teria se fosse uma declaração de função ao invés de uma expressão). Então, teste() está invocando o valor undefined o que resulta em TypeError.
-Tambpém vamos lembrar que mesmo sendo uma expressão de função com nome, o identificador do nome não está disponível no escopo:
+O identificador da variável `teste` é ‘içado’ e setado ao escopo global do programa, então `teste()` não gera um  ReferenceError. Mas `teste` não tem valor ainda (como teria se fosse uma declaração de função ao invés de uma expressão). Então, `teste()` está invocando o valor `undefined` o que resulta em `TypeError`.
+Também vamos lembrar que mesmo sendo uma expressão de função com nome, o identificador do nome não está disponível no escopo:
 ```js
 teste(); // TypeError
 bar(); // ReferenceError
