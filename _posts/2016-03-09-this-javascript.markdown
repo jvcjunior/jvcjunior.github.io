@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Entendendo o this em Javascript"
