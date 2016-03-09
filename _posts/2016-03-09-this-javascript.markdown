@@ -10,8 +10,8 @@ published: false
 
 Fala galera, beleza? Esse post fala sobre um carinha muito pouco compreendido no mundo JS que é o ´this´. Vou tentar explanar um pouco sobre esse cara e vou procurar fazer isso da maneira mais fácil possível. 
 
-## O que é o ´this´?
+## Motivação?
 
-{% highlight ruby %}
-this
-{% endhighlight %}
+Para quem está acostumado a programar em linguagens como Java ou C#, sabe que a palavra this se refere a instância atual do objeto. Logo, cada instância criada tem o seu this que pode ser acessado dentro da mesma. A função da palavra-chave this comporta-se um pouco diferente em Javascript se comparado com outras linguagens. Também possui algumas diferenças entre o modo estrito e o modo não estrito. Na maior parte das vezes, o valor this é determinado pela forma como você chama a função. Essa diferença deixa muita gente confusa. Eu mesmo, as vezes, me pego questionando qual o seu valor em determinados pontos do código. Mas uma coisa é certa, é tudo questão de regras. 
+
+## Motivação?
