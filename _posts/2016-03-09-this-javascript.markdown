@@ -18,8 +18,10 @@ Para quem está acostumado a programar em linguagens como Java ou C#, sabe que a
 Toda função JavaScript, ao ser executada, gera uma associação do objeto criado pelo interpretador através da palavra reservada `this`. A especificação da ECMAScript chama isso de `ThisBinding`, um evento que acontece toda vez que um código JavaScript é executado e um novo contexto de execução é estabelecido. Na maioria das vezes o valor do `this` é determinado por como a funcção foi chamada. Não pode ser setado por atribuição em tempo de execução e pode ter um valor diferente em cada chamada da função. Por isso vamos analisar as regrqas por trás da identificação do `this` no código. Vamos mostrar na ordem de prioridade. Algumas regras tem prioridade em função das outras e iremos listar da maior para menor. 
 
 ### Quando a função é chamada usando `new`
+
 A primeira regra com a a maior prioridade é quando uma função é chamada usando o `new binding`.
 O que isso significa? Vamos ver um exemplo: 
+
 ```javascript
 function Pessoa(nome) {
     this.nome = nome;
@@ -34,6 +36,7 @@ Quando o operador `new` é colocado na frente da chamada de uma função então 
 ### `binding` Explícito
 
 O `binding` explícito força o `this` a referencciar o objeto especificado.Vamos ver um exemplo:
+
 ```javascript
 function teste() {
     console.log("Olá " + this.name );
@@ -50,16 +53,21 @@ var pessoa2 = {
 teste.call(pessoa1); // Olá Valter
 teste.apply(pessoa2); // Olá Júnior
 ```
+
 Conseguiu perceber?  Com o .call e o .apply podemos atribuir ao `this` uma referência ao objeto que queremos em qualquer chamada de função(com exceção de funções que usam ´hard binding´) .
 Notem a especificação do apply e do call:
+
 ```javascript
 Function.prototype.apply(thisArg, [argsArray])
 Function.prototype.call(thisArg[, arg1[, arg2[, …]]])
 ```
+
 A diferença entre os dois é que o apply permite que a função seja executada com um array de parâmetros enquanto o call requer que os parâmetros sejam listados explicitamente. 
 
 ### `hard binding`
+
 ### `binding` implícito
+
 ### Contexto Global (`default binding`)
 
 No contexto global de execução(fora de qualquer função), `this` se refere ao objeto global, quer estejamos trabalhando em `strict mode` quer não. 
