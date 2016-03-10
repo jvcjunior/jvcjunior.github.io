@@ -7,7 +7,7 @@ tags: github javascript this keyword
 published: true
 ---
 
-Fala galera, beleza? Esse post fala sobre um carinha muito pouco compreendido no mundo JS que é o ´this´. Vou tentar explanar um pouco sobre esse cara e vou procurar fazer isso da maneira mais fácil possível. 
+Fala galera, beleza? Esse post fala sobre um carinha muito pouco compreendido no mundo JS que é o `this`. Vou tentar explanar um pouco sobre esse cara e vou procurar fazer isso da maneira mais fácil possível. 
 
 ## Motivação?
 
