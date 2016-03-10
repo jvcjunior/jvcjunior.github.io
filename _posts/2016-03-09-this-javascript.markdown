@@ -20,7 +20,7 @@ Toda função JavaScript, ao ser executada, gera uma associação do objeto cria
 ### Quando a função é chamada usando `new`
 A primeira regra com a a maior prioridade é quando uma função é chamada usando o `new binding`.
 O que isso significa? Vamos ver um exemplo: 
-```js
+```javascript
 function Pessoa(nome) {
     this.nome = nome;
 }
@@ -34,7 +34,7 @@ Quando o operador `new` é colocado na frente da chamada de uma função então 
 ### `binding` Explícito
 
 O `binding` explícito força o `this` a referencciar o objeto especificado.Vamos ver um exemplo:
-```js
+```javascript
 function teste() {
     console.log("Olá " + this.name );
 }
@@ -52,7 +52,7 @@ teste.apply(pessoa2); // Olá Júnior
 ```
 Conseguiu perceber?  Com o .call e o .apply podemos atribuir ao `this` uma referência ao objeto que queremos em qualquer chamada de função(com exceção de funções que usam ´hard binding´) .
 Notem a especificação do apply e do call:
-```js
+```javascript
 Function.prototype.apply(thisArg, [argsArray])
 Function.prototype.call(thisArg[, arg1[, arg2[, …]]])
 ```
@@ -65,7 +65,7 @@ A diferença entre os dois é que o apply permite que a função seja executada 
 No contexto global de execução(fora de qualquer função), `this` se refere ao objeto global, quer estejamos trabalhando em `strict mode` quer não. 
 Considere por exemplo o código abaixo: 
 
-```js
+```javascript
 console.log(this.document === document); // true
 // Nos web browsers, o objeto `window` é também o objeto global:
 console.log(this === window); // true
