@@ -66,7 +66,118 @@ A diferença entre os dois é que o apply permite que a função seja executada 
 
 ### `hard binding`
 
+As vezes nós não queremos que quem chama a minha função mude o `thisBinding`(E como vimos, o `this` muda de acordo como a função é chamada). Nós podemos então usar o `hard binding`. Vamos analisar 2 exemplos:
+
+```javascript
+function digaOla() {
+    console.log(this.name);
+}
+ 
+var pessoa1 = {
+    nome: "Valter"
+};
+ 
+var pessoa2 = {
+    nome: "Júnior"
+};
+ 
+var origDigaOla = digaOla;
+digaOla = function() {
+    origDigaOla.call(pessoa2);
+};
+ 
+digaOla.call(pessoa1); // Júnior
+```
+
+Por salvar a referência de `digaOla` e criar uma função `wrapper` que sempre retorna a função original com `.call` e nosso específico objeto, nós estamos jogando fora o que quer que `digaOla.call` especifique. Dessa maneira nós sempre podemos garantir que o `this` é uma referência para o que queremos. Uma outra maneira que expressar esse padrão é criar um helper reutilizável:
+
+```javascript
+function foo(something) {
+    console.log( this.a, something );
+    return this.a + something;
+}
+
+// simple `bind` helper
+function bind(fn, obj) {
+    return function() {
+        return fn.apply( obj, arguments );
+    };
+}
+
+var obj = {
+    a: 2
+};
+
+var bar = bind( foo, obj );
+
+var b = bar( 3 ); // 2 3
+console.log( b ); // 5
+```
+
+Já que o `hard binding` é um padrão bem comum e é bastante utilizado, ECMAScript 5 nos fornece uma função `bind` que faz esse trabalho por nós: `Function.prototype.bind`, e é usado dessa forma:
+
+```javascript
+function foo(something) {
+    console.log( this.a, something );
+    return this.a + something;
+}
+
+var obj = {
+    a: 2
+};
+
+var bar = foo.bind( obj );
+
+var b = bar( 3 ); // 2 3
+console.log( b ); // 5
+bind(..) returns a new function that is hard-coded to call the original function with the this context set as you specified.
+```
+
 ### `binding` implícito
+
+
+Essa regra alega que o objeto container é referenciado pela palavra `this` quando a função é chamada. Vamos entender melhora analisando o exemplo abaixo: 
+
+```javascript
+function digaOla() {
+    console.log(this.nome);
+}
+ 
+var pessoa1 = {
+    nome: "Valter",
+    ola: digaOla
+};
+ 
+var pessoa2 = {
+    nome: "Júnior",
+    ola: digaOla
+};
+ 
+pessoa1.ola(); // Valter
+pessoa2.ola(); // Júnior
+```
+
+Como podemos ver acima, não importa onde a função foi declarada mas somente como ela foi chamada. Então quando `digaOla` foi chamada através de ´pessoa1.ola´, o  está referenciando `pessoa1` e a linha abaixo está referenciando `pessoa2`. Vamos ver outro exemplo:
+
+```javascript
+var pessoa = {
+    digaOla: function() {
+        console.log(this.nome)
+    }
+};
+ 
+var pessoa1 = Object.create(pessoa);
+pessoa1.nome = "Valter";
+ 
+ 
+var pessoa2 = Object.create(pessoa);
+pessoa2.nome = "Júnior";
+ 
+pessoa1.digaOla(); // Valter
+pessoa2.digaOla(); // Júnior
+```
+
+O mesmo vale para funções na `prototype chain` não importa quão distante estejam declaradas.  
 
 ### Contexto Global (`default binding`)
 
