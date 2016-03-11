@@ -203,19 +203,24 @@ A função é chamda com um `new`? Se sim, `this` é o récem construído objeto
 var bar = new foo();
 ```
 
-Is the function called with call or apply (explicit binding), even hidden inside a bind hard binding? If so, this is the explicitly specified object.
+A função é executada com o `call` ou `apply` (`binding` explícito), mesmo escondido em um `hard binding`? Se sim, `this` será o objeto que explicitamente foi especificado ou passado como parâmetro nos métodos `call` ou `apply`.
 
 ```javascript
-var bar = foo.call( obj2 )
+var bar = foo.call( obj2 );
+```
 
-Is the function called with a context (implicit binding), otherwise known as an owning or containing object? If so, this is that context object.
+A função é chamada com um contexto, também conhecido como o objeto que contém essa função? Se sim, `this` se refere a esse objeto.
 
-var bar = obj1.foo()
+```javascript
+var bar = obj1.foo();
+```
 
-Otherwise, default the this (default binding). If in strict mode, pick undefined, otherwise pick the global object.
+Se nenhum dos acima ocorrer, então temos o this default; Se em modo restrito, será indefinido, senão será o objeto global. 
 
-var bar = foo()
+```javascript
+var bar = foo();
+```
 
-That's it. That's all it takes to understand the rules of this binding for normal function calls. Well... almost.
+É isso pessoal. Basta isso para entender as regras do `this` para chamadas normais de funções. Existem algumas exceções, mas vou tratar disso em algum outro post. Espero que tenham gostado. Até a próxima.
 
 
