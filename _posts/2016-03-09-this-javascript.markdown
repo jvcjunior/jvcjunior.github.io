@@ -193,5 +193,29 @@ this.a = 37;
 console.log(window.a); // 37
 ```
 
+### Determinando o `this`
+
+Podemos resumir as regras de determinação do `this` em ordem de precedência. Se faça esses questionamentos nessa ordem e pare na primeira regra que se aplicar: 
+
+A função é chamda com um `new`? Se sim, `this` é o récem construído objeto.  
+
+```javascript
+var bar = new foo();
+```
+
+Is the function called with call or apply (explicit binding), even hidden inside a bind hard binding? If so, this is the explicitly specified object.
+
+```javascript
+var bar = foo.call( obj2 )
+
+Is the function called with a context (implicit binding), otherwise known as an owning or containing object? If so, this is that context object.
+
+var bar = obj1.foo()
+
+Otherwise, default the this (default binding). If in strict mode, pick undefined, otherwise pick the global object.
+
+var bar = foo()
+
+That's it. That's all it takes to understand the rules of this binding for normal function calls. Well... almost.
 
 
