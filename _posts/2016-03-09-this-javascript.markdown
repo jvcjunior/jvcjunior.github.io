@@ -132,7 +132,8 @@ var b = bar( 3 ); // 2 3
 console.log( b ); // 5
 ```
 
-bind(..) returns a new function that is hard-coded to call the original function with the this context set as you specified.
+`bind(..)` retorna uma nova função que é `hard-coded` para chamar a função original com o `this` conforme você especificou.
+
 ### `binding` implícito
 
 
