@@ -130,9 +130,9 @@ var bar = foo.bind( obj );
 
 var b = bar( 3 ); // 2 3
 console.log( b ); // 5
-bind(..) returns a new function that is hard-coded to call the original function with the this context set as you specified.
 ```
 
+bind(..) returns a new function that is hard-coded to call the original function with the this context set as you specified.
 ### `binding` implícito
 
 
