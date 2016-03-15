@@ -8,3 +8,7 @@ published: false
 ---
 
 Fala galera, beleza? Visto que o no último post falei que o `this` em javascript tem algumas exceções, vou falar sobre elas hoje.
+
+## Exceções relacionadas com o `this`
+Como costume, toda regra tem exceções. E não é diferente para as regras que vimos no post anterior. Alguns cenários o comportamento do `this` pode te deixar surpreso, onde você acredita que está sendo atribuido de uma forma mas acaba que a atribuição do `this` sai um pouco diferente do planejado. Vamos analisar esses casos. 
+
