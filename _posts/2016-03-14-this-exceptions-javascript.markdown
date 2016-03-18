@@ -25,3 +25,5 @@ var a = 2;
 
 teste.call( null ); // 2
 ```
+
+## `this` seguro
