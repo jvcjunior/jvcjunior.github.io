@@ -27,3 +27,24 @@ teste.call( null ); // 2
 ```
 
 ## `this` seguro
+
+## Referências indiretas
+
+Outra coisa que precisamos estar cientes é que você pode( intencionalmente ou não) criar referências indiretas a funções, e nesses casos, quando a referência é invocada, o `default binding` também é aplicado. 
+
+Uma das maneiras mais comuns de referências indiretas ocorre da seguinte forma: 
+
+```js
+function teste() {
+    console.log( this.a );
+}
+
+var a = 2;
+var o = { a: 3, teste: teste };
+var p = { a: 4 };
+
+o.teste(); // 3
+(p.teste = o.teste)(); // 2
+```
+
+O resultado dessa expressão `p.foo = o.foo` é uma referência para o objeto da função subjacente. Dessa maneira, o `call-site`, ou seja, o ponto de chamada é apenas `foo()`, e não `p.foo()` ou `o.foo()` como você pode esperar. Pelas regras acima,  o `default binding` é aplicado. 
