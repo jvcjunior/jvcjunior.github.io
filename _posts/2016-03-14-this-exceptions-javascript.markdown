@@ -28,6 +28,23 @@ teste.call( null ); // 2
 
 ## `this` seguro
 
+Talvez uma prática "segura" seja passar especificamente um objeto para inicialização para o `this` que seja garantido não ser um objeto que crie efeitos colaterais no nosso programa. Nada mais especial do que um objeto completamente vazio
+
+Onde quer que seja a chamada, a maneira mais fácil de criar um objeto totalmente vazio é `Object.create(null)`. `Object.create(null)` é similar ao `{ }`, mas sem o `delegation` para `Object.prototype`, logo é um vazio "mais vazio" que somente o `{ }`. Vamos ver um exemplo: 
+
+```js
+function foo(a,b) {
+    console.log( "a:" + a + ", b:" + b );
+}
+
+var vazio = Object.create( null );
+
+foo.apply( ø, [2, 3] ); // a:2, b:3
+
+var bar = foo.bind( vazio, 2 );
+bar( 3 ); // a:2, b:3
+```
+
 ## Referências indiretas
 
 Outra coisa que precisamos estar cientes é que você pode( intencionalmente ou não) criar referências indiretas a funções, e nesses casos, quando a referência é invocada, o `default binding` também é aplicado. 
