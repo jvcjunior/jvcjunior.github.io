@@ -65,3 +65,31 @@ o.teste(); // 3
 ```
 
 O resultado dessa expressão `p.foo = o.foo` é uma referência para o objeto da função subjacente. Dessa maneira, o `call-site`, ou seja, o ponto de chamada é apenas `foo()`, e não `p.foo()` ou `o.foo()` como você pode esperar. Pelas regras acima,  o `default binding` é aplicado. 
+
+
+## `this` Léxico
+
+Funções normais continuam com as 4 regras que cobrimos no post anterior. Mas ES6 introduziu um tipo especial de função que não usa essas regras: `arrow-functions`.
+
+`Arrow-functions` são sinalizadas não pelo palavra-chave `function`, mas por `=>`. No lugar de usar as quatros regras padrões, `arrow-functions` adotam a atribuição do `this` baseando-se no escopo delimitador(função ou global). Vamos ilustrar:
+
+```js
+function foo() {
+    // retorna uma arrow function
+    return (a) => {
+        // `this` aqui é lexicamente adotado de `foo()`
+        console.log( this.a );
+    };
+}
+
+var obj1 = {
+    a: 2
+};
+
+var obj2 = {
+    a: 3
+};
+
+var bar = foo.call( obj1 );
+bar.call( obj2 ); // 2, not 3!
+```
