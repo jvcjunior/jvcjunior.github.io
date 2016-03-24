@@ -93,3 +93,5 @@ var obj2 = {
 var bar = foo.call( obj1 );
 bar.call( obj2 ); // 2, not 3!
 ```
+
+A `arrow-function` criada em `foo()` lexicamente captura qualquer que seja o `this` de `foo()`. Desde que `foo()` teve o `this` como `obj1`, `bar` vai também ter o `this` como o `obj1`. O `binding` léxico da função arco não pode ser sobrescrito, mesmo com o `new`!.
