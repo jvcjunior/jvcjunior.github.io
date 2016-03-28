@@ -101,7 +101,7 @@ O caso mais comum de uso será no uso de callbacks, tais como `event handlers` o
 ```js
 function foo() {
     setTimeout(() => {
-        // `this` here is lexically adopted from `foo()`
+        // `this` aqui é lexicamente adotado de foo
         console.log( this.a );
     },100);
 }
@@ -112,3 +112,22 @@ var obj = {
 
 foo.call( obj ); // 2
 ```
+
+Enquanto funções arco nos dão uma alternativa com relação à usar o `bind(..)` na função para garantir o valor do `this`, o que pode ser atraente, é importante notar que dessa forma estamos basicamente desabilitando o mecanismo do `this` em favor de um escopo léxico mais amplamente entendido. Antes do EcmaScript 6 nós tinhamos como fazer esse padrão, que é quase indistinguível do espírito das funções arco do Ecmascript 6: 
+
+```js
+function foo() {
+    var self = this; // captura léxica do `this
+    setTimeout( function(){
+        console.log( self.a );
+    }, 100 );
+}
+
+var obj = {
+    a: 2
+};
+
+foo.call( obj ); // 2
+```
+
+Bom pessoal, acho que é isso. São muitos detalhes a aprender e espero que tenham gostado. Acredito que irei continuar escrevendo sobre javascript e nos vemos no próximo post. Abraço!
