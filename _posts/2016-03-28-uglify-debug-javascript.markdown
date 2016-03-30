@@ -25,3 +25,22 @@ Se na sua aplicação existe minificação(O que eu recomendo fortemente), o Ugl
 uglifyjs --define DEBUG=false "main.js" > "main.min.js"
 ```
 
+Esse código adiciona uma constante temporária chamada `DEBUG` que é atribuido o valor falso pra ela. Então no seu código basta fazer o seguinte: 
+
+```js
+if (typeof DEBUG === 'undefined') DEBUG = true; // will be removed
+
+function doSomethingCool() {
+    DEBUG && console.log("something cool just happened"); // will be removed
+}
+```
+
+A mensagem de log será removida pelo `Uglify's dead-code remover`. Quando definimos o `DEBUG` com falso então o minificador irá limpar e remover todo o código que não será executado. Como quando `DEBUG` for falso, os logs nunca serã oexecutados, então serão removidos. 
+
+Quando estivermos na fase de desenvolvimento `DEBUG` será `true`, logo os console.log serão executados. Tem uma nova versão do UglifyJS chamado agora UglifyJS2. Seu comportamento é um pouco diferente. De maneira a conseguir remover `código morto`, temos de ativar o compressor. Por exemplo: 
+
+```js
+uglifyjs --compress --define DEBUG=false main.js -o main.min2.js
+```
+
+Bom, é isso galerinha. Acho que essas pequenas técnicas, quando sendo usadas em conjunto com outras, fazem uma boa diferença na performance de sua aplicação e espero que tenham gostado. Vou procurar escrever mais sobre isso em breve. Até a próxima!
