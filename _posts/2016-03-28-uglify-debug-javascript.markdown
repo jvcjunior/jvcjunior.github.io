@@ -4,7 +4,7 @@ title:  "Uglify para automaticamente remover mensagens de `debug`"
 date:   2016-03-14 10:15:00
 categories: github javascript gulp uglify debug console
 tags: github javascript gulp uglify debug console
-published: false
+published: true
 ---
 
 Fala galerinha, tranquilidade? Vou deixar um pouco o assunto do `this` do javascript de lado e falar agora sobre uma técnica bem interessante.
