@@ -25,9 +25,11 @@ first question I had. And this second question was:
 'What is the difference between Compiled 'languages' and Interpreted 'languages'?'.
 
 ### Big Question: Compiled 'languages' x Interpreted 'languages'
-I don't know if you realized that I wrote languages in simple quotes. There's a reason for that.
+I don't know if you realized that I wrote languages in simple quotes. There's a reason for that. What I am trying to say is that there is no difference, because “compiled programming language” and “interpreted programming language” aren’t meaningful concepts. Any programming language, and I really mean any, can be interpreted or compiled. Thus, interpretation and compilation are implementation techniques, not attributes of languages.
 
+Interpretation is a technique whereby another program, the interpreter, performs operations on behalf of the program being interpreted in order to run it. If you can imagine reading a program and doing what it says to do step-by-step, say on a piece of scratch paper, that’s just what an interpreter does as well. A common reason to interpret a program is that interpreters are relatively easy to write. Another reason is that an interpreter can monitor what a program tries to do as it runs, to enforce a policy, say, for security.
 
+Compilation is a technique whereby a program written in one language (the “source language”) is translated into a program in another language (the “object language”), which hopefully means the same thing as the original program. While doing the translation, it is common for the compiler to also try to transform the program in ways that will make the object program faster (without changing its meaning!). A common reason to compile a program is that there’s some good way to run programs in the object language quickly and without the overhead of interpreting the source language along the way.
 
 ### Conclusion
 
