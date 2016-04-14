@@ -10,7 +10,7 @@ published: false
 In the last days I've been studying javascript. Watching Kyle's Simpson advanced javascript course in pluralsight, I started to go deep into 
 the differences between compiled languages and interpreted languages. I found some great stuff and would like to share with you. 
 
-### Search for the truth
+### Motivation
 Let me explain my journey to find the differences between compiled languages and interpreted languages. It started when I was 
 watching Kyle's course. In the course he spent a lot of time explaining how javascript engine works and the process of compilation 
 of the language. When he said compilation I thought: 'Compilation? Is Javascript Compiled?' I was curious about that statement. 
@@ -31,6 +31,5 @@ Interpretation is a technique whereby another program, the interpreter, performs
 
 Compilation is a technique whereby a program written in one language (the “source language”) is translated into a program in another language (the “object language”), which hopefully means the same thing as the original program. While doing the translation, it is common for the compiler to also try to transform the program in ways that will make the object program faster (without changing its meaning!). A common reason to compile a program is that there’s some good way to run programs in the object language quickly and without the overhead of interpreting the source language along the way.
 
-### Conclusion
-
+There are a lot of posts, blogs and books talking about this. For me it is important to understand the language nuances. I hope you liked and I see you in the next post. Bye! ;)
 
