@@ -4,7 +4,7 @@ title:  "Compiled 'languages' x Interpreted 'languages'"
 date:   2016-04-11 10:15:00
 categories: javascript compiled languages interpreted
 tags: javascript compiled languages interpreted
-published: false
+published: yes
 ---
 
 In the last days I've been studying javascript. Watching Kyle's Simpson advanced javascript course in pluralsight, I started to go deep into 
