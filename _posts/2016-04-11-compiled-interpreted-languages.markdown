@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Compiled 'languages' x Interpreted 'languages'"
 date:   2016-04-11 10:15:00
 categories: javascript compiled languages interpreted
